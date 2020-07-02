@@ -25,6 +25,7 @@ Table of Contents
  * [Command and Control](#-command-and-control)
  * [Embedded and Peripheral Devices Hacking](#-embedded-and-peripheral-devices-hacking)
  * [Misc](#-misc)
+ * [RedTeam Gadgets](#-redteam-gadgets)
  * [Ebooks](#-ebooks)
  * [Training](#-training--free-)
  * [Certification](#-certification)
@@ -37,7 +38,7 @@ Table of Contents
 * [Bash Bunny](https://hakshop.com/products/bash-bunny)
 * [OWASP Presentation of Social Engineering - OWASP](https://www.owasp.org/images/5/54/Presentation_Social_Engineering.pdf)
 * [USB Drop Attacks: The Danger of “Lost And Found” Thumb Drives](https://www.redteamsecure.com/usb-drop-attacks-the-danger-of-lost-and-found-thumb-drives/)
-* [Weaponizing data science for social engineering: Automated E2E spear phishing on Twitter - Defcon 23](https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEFCON-24-Seymour-Tully-Weaponizing-Data-Science-For-Social-Engineering-WP.pdf)
+* [Weaponizing data science for social engineering: Automated E2E spear phishing on Twitter - Defcon 24](https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEF%20CON%2024%20-%20Seymour-Tully-Weaponizing-Data-Science-For-Social-Engineering-WP.pdf)
 * [Cobalt Strike - Spear Phishing documentation](https://www.cobaltstrike.com/help-spear-phish)
 * [Cobalt Strike Blog - What's the go-to phishing technique or exploit?](https://blog.cobaltstrike.com/2014/12/17/whats-the-go-to-phishing-technique-or-exploit/)
 * [Spear phishing with Cobalt Strike - Raphael Mudge](https://www.youtube.com/watch?v=V7UJjVcq2Ao)
@@ -152,6 +153,7 @@ Table of Contents
 * [Offensive Encrypted Data Storage](https://www.harmj0y.net/blog/redteaming/offensive-encrypted-data-storage/)
 * [Practical guide to NTLM Relaying](https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html)
 * [Dump Clear-Text Passwords for All Admins in the Domain Using Mimikatz DCSync](https://adsecurity.org/?p=2053)
+* [Dumping Domain Password Hashes](https://pentestlab.blog/2018/07/04/dumping-domain-password-hashes/)
   
 ## [↑](#table-of-contents) Discovery
 * [Red Team Operating in a Modern Environment](https://www.owasp.org/images/4/4b/Red_Team_Operating_in_a_Modern_Environment.pdf)
@@ -170,10 +172,11 @@ Table of Contents
 * [Scanning for Active Directory Privileges & Privileged Accounts](https://adsecurity.org/?p=3658)
 * [Microsoft LAPS Security & Active Directory LAPS Configuration Recon](https://adsecurity.org/?p=3164)
 * [Trust Direction: An Enabler for Active Directory Enumeration and Trust Exploitation](https://bohops.com/2017/12/02/trust-direction-an-enabler-for-active-directory-enumeration-and-trust-exploitation/)
+* [SPN Discovery](https://pentestlab.blog/2018/06/04/spn-discovery/)
    
 ## [↑](#table-of-contents) Lateral Movement 
 
-* [A Citrx Story](https://rastamouse.me/2017/05/a-citrix-story/)
+* [A Citrix Story](https://rastamouse.me/2017/05/a-citrix-story/)
 * [Jumping Network Segregation with RDP](https://rastamouse.me/2017/08/jumping-network-segregation-with-rdp/)
 * [Pass hash pass ticket no pain](http://resources.infosecinstitute.com/pass-hash-pass-ticket-no-pain/)
 * [Abusing DNSAdmins privilege for escalation in Active Directory](http://www.labofapenetrationtester.com/2017/05/abusing-dnsadmins-privilege-for-escalation-in-active-directory.html)
@@ -200,10 +203,14 @@ Table of Contents
 * [a guide to attacking domain trusts](https://posts.specterops.io/a-guide-to-attacking-domain-trusts-971e52cb2944)
 * [Outlook Home Page – Another Ruler Vector](https://sensepost.com/blog/2017/outlook-home-page-another-ruler-vector/)
 * [Outlook Forms and Shells](https://sensepost.com/blog/2017/outlook-forms-and-shells/)
+* [Abusing the COM Registry Structure: CLSID, LocalServer32, & InprocServer32](https://bohops.com/2018/06/28/abusing-com-registry-structure-clsid-localserver32-inprocserver32/)
+* [LethalHTA - A new lateral movement technique using DCOM and HTA](https://codewhitesec.blogspot.com/2018/07/lethalhta.html)
+* [Abusing DCOM For Yet Another Lateral Movement Technique](https://bohops.com/2018/04/28/abusing-dcom-for-yet-another-lateral-movement-technique/)
    
 ## [↑](#table-of-contents) Collection  
 * [Accessing clipboard from the lock screen in Windows 10 Part 1](https://oddvar.moe/2017/01/24/accessing-clipboard-from-the-lock-screen-in-windows-10/)
 * [Accessing clipboard from the lock screen in Windows 10 Part 2](https://oddvar.moe/2017/01/27/access-clipboard-from-lock-screen-in-windows-10-2/)
+
   
    
 ## [↑](#table-of-contents) Exfiltration
@@ -334,15 +341,44 @@ Table of Contents
 * [Red Teaming for Pacific Rim CCDC 2016](https://bluescreenofjeff.com/2016-05-24-pacific-rim-ccdc_2016/)
 * [Responsible Red Teams](https://medium.com/@malcomvetter/responsible-red-teams-1c6209fd43cc)
 
+## [↑](#table-of-contents) RedTeam Gadgets
+#### Network Implants
+* [LAN Tap Pro](https://hackerwarehouse.com/product/lan-tap-pro/)
+* [LAN Turtle](https://hakshop.com/collections/network-implants/products/lan-turtle)
+* [Bash Bunny](https://hakshop.com/collections/physical-access/products/bash-bunny)
+* [Packet Squirrel](https://hakshop.com/products/packet-squirrel)
+#### Wifi Auditing
+* [WiFi Pineapple](https://hakshop.com/products/wifi-pineapple)
+* [Alpha Long range Wireless USB](https://hackerwarehouse.com/product/alfa-802-11bgn-long-range-usb-wireless-adapter/)
+* [Wifi-Deauth Monster](https://www.tindie.com/products/lspoplove/dstike-wifi-deauther-monster/)
+* [Crazy PA](https://www.amazon.com/gp/product/B00VYA3A2U/ref=as_li_tl)
+#### IoT
+* [BLE Key](https://hackerwarehouse.com/product/blekey/)
+* [Proxmark3](https://hackerwarehouse.com/product/proxmark3-kit/)
+* [Zigbee Sniffer](https://www.attify-store.com/products/zigbee-sniffing-tool-atmel-rzraven)
+* [Attify IoT Exploit kit](https://www.attify-store.com/collections/frontpage/products/jtag-exploitation-kit-with-lab-manual)
+#### Software Defined Radio - SDR
+* [HackRF One Bundle](https://hackerwarehouse.com/product/hackrf-one-kit/)
+* [RTL-SDR](https://hackerwarehouse.com/product/rtlsdr/)
+* [YARD stick one Bundle](https://hackerwarehouse.com/product/yard-stick-one-kit/)
+* [Ubertooth](https://hackerwarehouse.com/product/ubertooth-one/)
+#### Misc
+* [Key Grabber](https://hackerwarehouse.com/product/keygrabber/)
+* [Magspoof](https://store.ryscc.com/products/magspoof%20)
+* [Poison tap](https://samy.pl/poisontap/)
+* [keysweeper](https://samy.pl/keysweeper/)
+* [USB Rubber Ducky](https://hakshop.com/collections/physical-access/products/usb-rubber-ducky-deluxe)
+
 ## [↑](#table-of-contents) Ebooks
 * [Next Generation Red Teaming](https://www.amazon.com/Next-Generation-Teaming-Henry-Dalziel/dp/0128041714)
 * [Targeted Cyber Attack](https://www.amazon.com/Targeted-Cyber-Attacks-Multi-staged-Exploits/dp/0128006048)
 * [Advanced Penetration Testing: Hacking the World's Most Secure Networks](https://www.amazon.com/Advanced-Penetration-Testing-Hacking-Networks/dp/1119367689)
-* [Social Engieers' Playbook Pretical Pretexting](https://www.amazon.com/Social-Engineers-Playbook-Practical-Pretexting/dp/0692306617/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=talamantesus-20&linkId=37b63c7702c9be6b9f6a1b921c88c8cd)
+* [Social Engineers' Playbook Practical Pretexting](https://www.amazon.com/Social-Engineers-Playbook-Practical-Pretexting/dp/0692306617/)
 
 ## [↑](#table-of-contents) Training ( Free )
 * [Tradecraft - a course on red team operations](https://www.youtube.com/watch?v=IRpS7oZ3z0o&list=PL9HO6M_MU2nesxSmhJjEvwLhUoHPHmXvz)
 * [Advanced Threat Tactics Course & Notes](https://blog.cobaltstrike.com/2015/09/30/advanced-threat-tactics-course-and-notes/)
+* [FireEye - a whiteboard session on red team operations](https://www.fireeye.com/services/red-team-assessments/red-team-operations-video-training.html)
 
 ## [↑](#table-of-contents) Certification
 * [CREST Certified Simulated Attack Specialist](http://www.crest-approved.org/examination/certified-simulated-attack-specialist/)
